@@ -1,4 +1,4 @@
-# sCapacitorGoogleAuthDemo(使用 Angular 在 Capacitor app 中登入 Google(CapacitorGoogleAuth 套件)示範)
+# CapacitorGoogleAuthDemo(使用 Angular 在 Capacitor app 中登入 Google(CapacitorGoogleAuth 套件)示範)
 
 練習在 Capacitor 的 Angular 專案上，使用 CapacitorGoogleAuth 套件在 Web、Android、iOS 平台上，實作 Google 登入。
 
@@ -76,24 +76,24 @@ googleClientID＝
 // 應用程式的唯一標識符
 appId:
 // 應用程式名稱
-appName:應用程式名稱
+appName:
 // 指定 Angular 應用程式的打包輸出目錄
-webDir
+webDir:
 // 用於指定 Capacitor 伺服器的配置
 server: {
   // for Android 的設定
-  androidScheme
+  androidScheme:
 }
 // Capacitor 上使用的套件
 plugins: {
     // Google 登入設定
     GoogleAuth: {
       // 需要請求訪問 Google API 的範圍
-      scopes
+      scopes:
       // 此 ClientId 用於離線訪問和服務器端處理
-      serverClientId
+      serverClientId:
       // 強制使用者選擇電子郵件地址以重新生成驗證碼，以獲取有效的刷新令牌(適用於 iOS 和 Android)
-      forceCodeForRefreshToken
+      forceCodeForRefreshToken:
     }
   }
 ```
