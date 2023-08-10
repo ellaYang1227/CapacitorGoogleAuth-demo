@@ -1,0 +1,17 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-lg="6">googleToken: {{ googleToken ? googleToken : '未登入' }}</ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-lg="6">
+        <ion-button expand="block" (click)="googleSignIn()">以 Google 登入</ion-button>
+        <div class="ion-padding-vertical">
+          <ion-button expand="block" color="danger" (click)="googleRefresh()">重新取得 Google
+            資料</ion-button>
+        </div>
+        <ion-button expand="block" color="light" (click)="googleSignOut()">Google 登出</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

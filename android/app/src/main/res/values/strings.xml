@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CapacitorGoogleAuth-demo</string>
+    <string name="title_activity_main">CapacitorGoogleAuth-demo</string>
+    <string name="package_name">com.CapacitorGoogleAuth.app</string>
+    <string name="custom_url_scheme">com.CapacitorGoogleAuth.app</string>
+    <string name="server_client_id">324292475892-9590a3ubjoi5h1l2ggtoost5v8emluem.apps.googleusercontent.com</string>
+</resources>
