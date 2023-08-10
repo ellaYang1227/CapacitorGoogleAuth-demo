@@ -41,12 +41,19 @@ ng serve
 http://localhost:4200/
 ```
 
-## APP 測試
+## Android APP 測試
 
 ### 打開 Android Studio 測試 Android APP
 
 ```
 npx cap open android
+```
+
+## iOS APP 測試
+### 編譯 Angular 應用程式(輸出路徑為 dist/ 目錄中)
+
+```
+ng build --configuration=production
 ```
 
 ### 打開 Xcode 測試 iOS APP
@@ -56,7 +63,7 @@ npx cap open ios
 ```
 
 ### 執行 iOS APP
-
+> 請先移除 /ios/App/App 路徑下的 GoogleService-Info.plist 檔案，在 Xcode 軟體中，重新複製 App/App 下，以避免執行 iOS APP 報錯。
 ```
 npx cap run ios
 ```
