@@ -104,6 +104,7 @@ plugins: {
 - iOS - 放置** Capacitor 建構 iOS 移動應用程式**
 - pages - 放置**網站單元頁面**
 - assets - 放置**靜態資源**
+- styles - 放置**樣式變數**
 - environments - 放置**環境變數**
 
 ## 專案技術
